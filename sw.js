@@ -1,4 +1,4 @@
-const CACHE='shift-2026-10-13-8';
+const CACHE='shift-2026-10-13-9';
 const ASSETS=['./','./index.html','./style.css','./app.js','./engine.js','./audio.js','./duels.js','./multiplayer-ui.js','./data.js','./manifest.webmanifest','./icon.svg','./logo.svg','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>(k.startsWith('cirkelstrijd-')||k.startsWith('shift-'))&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
