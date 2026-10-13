@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#F7F4F0">
+  <meta name="description" content="Doorzie duurzame keuzes en oefen zes weken Circulaire Economie met SHIFT.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>SHIFT · Circulaire Economie</title>
+  <link rel="apple-touch-icon" href="./icon-192.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <header class="site-header">
+    <button class="brand" id="home-button" aria-label="SHIFT startscherm"><img src="./logo.svg" alt="SHIFT" width="132" height="35"></button>
+    <div class="header-actions"><button id="sound-button" class="sound-button" aria-label="Geluid uitschakelen" title="Geluid aan" aria-pressed="true">Geluid aan</button><button id="install-button" hidden class="small-button">Installeer</button></div>
+  </header>
+  <main id="app" tabindex="-1"><div class="loading">Het spel wordt geladen…</div></main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="dialog-root"></div>
+  <script type="module" src="./app.js"></script>
+  <noscript>Schakel JavaScript in om SHIFT te spelen.</noscript>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 104" role="img" aria-labelledby="shift-title">
+  <title id="shift-title">SHIFT</title>
+  <defs>
+    <path id="shift-letters" d="M0 0H66V20H22V31H66V80H0V60H44V49H0Z M82 0H104V29H130V0H152V80H130V50H104V80H82Z M168 0H190V80H168Z M206 0H266V21H228V34H260V55H228V80H206Z M280 0H352V22H327V80H305V22H280Z"/>
+    <clipPath id="shift-top"><rect x="-20" y="0" width="400" height="37"/></clipPath>
+    <clipPath id="shift-bottom"><rect x="-20" y="41" width="400" height="39"/></clipPath>
+  </defs>
+  <g fill="#1C1713" transform="translate(24 12) skewX(-8)">
+    <use href="#shift-letters" clip-path="url(#shift-top)" transform="translate(5 0)"/>
+    <use href="#shift-letters" clip-path="url(#shift-bottom)"/>
+  </g>
+</svg>

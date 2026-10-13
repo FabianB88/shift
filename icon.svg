@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="shift-icon-title">
+  <title id="shift-icon-title">SHIFT app</title>
+  <rect width="128" height="128" rx="28" fill="#1C1713"/>
+  <g fill="#F7F4F0" transform="translate(39 35) skewX(-8)">
+    <path d="M4 0H58V17H22V26H58V28H4Z"/>
+    <path d="M0 32H54V64H0V47H36V39H0Z"/>
+  </g>
+</svg>
